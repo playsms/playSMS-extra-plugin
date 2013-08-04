@@ -1,0 +1,17 @@
+Upload the archive on your server
+
+Untar the archive with:
+ # tar xzvf sms_collect_mc-vx.y.tgz -C /var/www/vhosts/playsms/
+
+Go in db directory
+ # cd /var/www/vhosts/playsms/plugin/feature/sms_collect_mc/db/
+
+CreateSMS Collect  tables
+ # mysql -u <login> -p<password> playsms < sms_collect_mc.sql
+
+Connect to the GUI and go into Service -> SMS Collect
+Create a keyword and add a reply message
+Edit the keyword again and activate the service
+Send a sms to your system "<KEYWORD> <message>"
+You will see a new request registered that you can view
+All entries for this keyword can be expotred in CSV file
