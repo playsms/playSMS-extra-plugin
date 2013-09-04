@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS `playsms_featureCollect_mc_member`;
-CREATE TABLE `playsms_featureCollect_mc_member` (
+DROP TABLE IF EXISTS `playsms_featureCollect_member`;
+CREATE TABLE `playsms_featureCollect_member` (
   `c_timestamp` int(11) NOT NULL DEFAULT '0',
   `member_id` int(11) NOT NULL AUTO_INCREMENT,
   `collect_id` int(11) NOT NULL DEFAULT '0',
@@ -9,8 +9,8 @@ CREATE TABLE `playsms_featureCollect_mc_member` (
   PRIMARY KEY (`member_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-DROP TABLE IF EXISTS `playsms_featureCollect_mc`;
-CREATE TABLE `playsms_featureCollect_mc` (
+DROP TABLE IF EXISTS `playsms_featureCollect`;
+CREATE TABLE `playsms_featureCollect` (
   `c_timestamp` int(11) NOT NULL DEFAULT '0',
   `collect_id` int(11) NOT NULL AUTO_INCREMENT,
   `uid` int(11) NOT NULL DEFAULT '0',

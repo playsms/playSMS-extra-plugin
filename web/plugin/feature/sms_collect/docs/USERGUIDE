@@ -1,5 +1,5 @@
 USAGE:
 - Customer send message to a KEYWORD that will be stored in database
 - A reply message is sent back
-- Incoming SMS message can be forarded to an email address if set
+- Incoming SMS message can be forwarded to an email address if set
 - All entries for this keyword can be expoted in CSV file 

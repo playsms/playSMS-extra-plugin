@@ -1,13 +1,13 @@
 Upload the archive on your server
 
 Untar the archive with:
- # tar xzvf sms_collect_mc-vx.y.tgz -C /var/www/vhosts/playsms/
+ # tar xzvf sms_collect-vx.y.tgz -C /var/www/vhosts/playsms/
 
 Go in db directory
- # cd /var/www/vhosts/playsms/plugin/feature/sms_collect_mc/db/
+ # cd /var/www/vhosts/playsms/plugin/feature/sms_collect/db/
 
 CreateSMS Collect  tables
- # mysql -u <login> -p<password> playsms < sms_collect_mc.sql
+ # mysql -u <login> -p<password> playsms < sms_collect.sql
 
 Connect to the GUI and go into Service -> SMS Collect
 Create a keyword and add a reply message
